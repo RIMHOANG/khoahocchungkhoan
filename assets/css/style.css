@@ -65,7 +65,7 @@ table {
     background-color: rgba(231, 231, 231, 0.356);
     margin: 10px;
     padding: 20px;
-    height: 380px;
+    height: 450px;
 }
 
 #main #course img{
@@ -105,19 +105,50 @@ table {
 #main #contact .phone{
     margin-top: 2%;
 }
-#main #contact .phone img{
-    border: 10px solid #e8bb6b;
+#main #contact .phone .anh{
+    display: flex;
+}
+#main #contact .phone .anh .avatar{
     border-radius: 50%;
 }
-#main #contact .zalo{
-    margin-top: 2%;
-} 
-#main #contact .zalo h2{
-    padding: 15px;
-}
-#main #contact .zalo img{
+#main #contact .phone img{
     border: 10px solid #e8bb6b;
-}               
+    border-radius: 10px;
+}
+
+#main #contact .lh{
+    color: white;
+    background-color: rgb(61, 58, 55);
+    padding-top: 2%;
+}
+#main #contact .lh .thongtin{
+    margin-top: 50px;
+}
+#main #contact .lh .thongtin div{
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+#main #contact .lh .thongtin input{
+    width: 90%;
+    height: 40px;
+}
+#main #contact .lh .thongtin textarea{
+    width: 90%;
+}
+#main #contact .lh .thongtin button{
+    margin-top: 15px;
+    color: rgb(39, 39, 39);
+    background-color: #e8bb6b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 300ms;
+}
+#main #contact .lh .thongtin button:hover{
+    margin-top: 10px;
+    border-bottom: 5px solid rgb(112, 67, 0);
+}
 /* trung */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
