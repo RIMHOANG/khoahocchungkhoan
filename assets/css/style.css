@@ -208,14 +208,14 @@ table {
 #header h4{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 150px;
+    padding-top: 160px;
 }  
 .img{
-    padding-top: 70px ;
+    padding-top: 5%;
 }
 .logo{
     height: 40%; 
-    
+    width: 120px;
 }
 /* /* .header_child{
     color: white;
