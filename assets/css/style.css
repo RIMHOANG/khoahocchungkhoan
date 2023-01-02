@@ -57,15 +57,15 @@ table {
 
 #main #course{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-#main #course div{
+#main #course .col-md-4{
     color: rgb(39, 39, 39);
     background-color: rgba(231, 231, 231, 0.356);
-    margin: 10px;
-    padding: 20px;
     height: 450px;
+    padding-top: 15px;
+    border: 1px solid #e8bb6b;
 }
 
 #main #course img{
@@ -94,19 +94,22 @@ table {
 
 #main #contact{
     margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     background-color: rgba(230, 230, 230, 0.63);
 }
 #main #contact img{
-    width: 50%;
-    margin: 50px;
+    width: 30%;
+
 }
 #main #contact .phone{
     margin-top: 2%;
 }
 #main #contact .phone .anh{
     display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 #main #contact .phone .anh .avatar{
     border-radius: 50%;
@@ -120,6 +123,8 @@ table {
     color: white;
     background-color: rgb(61, 58, 55);
     padding-top: 2%;
+    margin-top: 20px;
+    height: 500px;
 }
 #main #contact .lh .thongtin{
     margin-top: 50px;
@@ -148,6 +153,19 @@ table {
 #main #contact .lh .thongtin button:hover{
     margin-top: 10px;
     border-bottom: 5px solid rgb(112, 67, 0);
+}
+
+@media only screen and (max-width:63.9375em){
+    #course{
+        flex-direction: column;
+    }
+    #contact{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .detail-kh{
+        width: 100%;
+    }
 }
 /* trung */
 html, body, div, span, applet, object, iframe,
