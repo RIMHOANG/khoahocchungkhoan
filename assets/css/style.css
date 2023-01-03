@@ -217,6 +217,9 @@ table {
 #header{ 
     /* text-align: center; */
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
     height: 450px;
     background-image: url("./../img/background_header-footer.jpg");
     padding-top: 50px;
@@ -224,18 +227,23 @@ table {
     justify-content: center;
     flex-direction: row;
     justify-content: space-evenly;
+    vertical-align: middle;
+    align-items: center;
 }
 #header h4{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 160px;
+    /* padding-top: 160px; */
+    vertical-align: middle;
 }  
 .img{
-    padding-top: 5%;
+    /* padding-top: 6%; */
+    align-self: ;
 }
 .logo{
     height: 40%; 
     width: 120px;
+    
 }
 .link{
     background-color: rgb(229, 195, 71);
@@ -244,9 +252,10 @@ table {
     border: none;
     width: 300px;
     transition: 200ms;
-    margin: 150px 0px 0px 100px;
+    /* margin: 150px 0px 0px 100px; */
     height: 50px;
     display: block;
+    vertical-align: middle;
 }
 .link a{
     color: black;
@@ -308,7 +317,6 @@ table {
   .link{
     display: block;
     margin: 60px 48px;
-    align-items: center;
   }
   .img{
     margin: 35px 0 ;
