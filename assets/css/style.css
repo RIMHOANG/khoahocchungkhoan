@@ -63,7 +63,7 @@ table {
 #main #course .col-md-4{
     color: rgb(39, 39, 39);
     background-color: rgba(231, 231, 231, 0.356);
-    height: 450px;
+    height: auto;
     padding-top: 15px;
     border: 1px solid #e8bb6b;
 }
@@ -77,6 +77,8 @@ table {
     background-color: rgba(230, 230, 230, 0);
     padding: 0px;
     margin-top: 20px;
+    margin-bottom: 10px;
+    height: 65px;
 }
 #main #course .nut button{
     margin-top: 20px;
